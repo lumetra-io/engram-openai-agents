@@ -40,7 +40,7 @@ agent = Agent(
     tools=[store, query],
 )
 
-result = await Runner.run(agent, "My name is Jacob, please remember that.")
+result = await Runner.run(agent, "My name is Alex, please remember that.")
 ```
 
 The agent's tool palette includes:
